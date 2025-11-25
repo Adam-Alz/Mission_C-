@@ -92,6 +92,7 @@ namespace Mission_C_.DAL
             {
                 // Remonte l'exception vers l'appelant
                 throw e;
+                //TEST
             }
         }
     }
