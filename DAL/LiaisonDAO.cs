@@ -13,7 +13,7 @@ namespace Mission_C_.DAL
     /// DAO pour gérer les opérations sur les liaisons en base de données.
     /// Fournit des méthodes statiques pour récupérer, insérer, mettre à jour et supprimer des liaisons.
     /// </summary>
-    internal class LiaisonDAO
+    public class LiaisonDAO
     {
         /// <summary>
         /// Nom ou adresse du serveur de base de données (provider).

@@ -13,7 +13,7 @@ namespace Mission_C_.DAL
     /// DAO pour gérer l'accès aux données de la table Port.
     /// Fournit une méthode statique pour récupérer la liste des ports depuis la base de données.
     /// </summary>
-    internal class PortDAO
+    public class PortDAO
     {
         /// <summary>
         /// Adresse du serveur de base de données (provider).

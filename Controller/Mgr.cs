@@ -12,7 +12,7 @@ namespace Mission_C_.Controller
     /// Gestionnaire central qui expose des méthodes simples pour accéder aux DAO.
     /// Sert de couche intermédiaire entre l'interface et la couche DAL.
     /// </summary>
-    internal class Mgr
+    public class Mgr
     {
         // Instances DAO (non statiques) utilisées par le gestionnaire
         SecteurDAO secDAO = new SecteurDAO();

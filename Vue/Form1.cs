@@ -152,11 +152,27 @@ namespace Mission_C_
         // Bouton : suppression de la liaison sélectionnée
         private void bDelete_Click(object sender, EventArgs e)
         {
-            Liaison l = (Liaison)lbLiaison.SelectedItem;
+            var result = MessageBox.Show(
+        "Êtes-vous sûr de vouloir supprimer cette liaison ?",
+        "Confirmation",
+        MessageBoxButtons.YesNo,
+        MessageBoxIcon.Question
+    );
 
-            manager.deleteLiaisonDB(l);
+            if ( result == DialogResult.Yes)
+            {
+                Liaison l = (Liaison)lbLiaison.SelectedItem;
 
-            lbLiaisonAffichage(); // rafraîchit la liste
+                manager.deleteLiaisonDB(l);
+
+                lbLiaisonAffichage(); // rafraîchit la liste
+            }
+            else
+            {
+                return;
+            }
+
+            
         }
 
         // Bouton : insertion d'une nouvelle liaison

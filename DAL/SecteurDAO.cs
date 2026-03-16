@@ -11,10 +11,10 @@ using System.Threading.Tasks;
 namespace Mission_C_.DAL
 {
     /// <summary>
-    /// DAO pour gérer l'accès aux données de la table Secteur.
+    ///DAO pour gérer l'accès aux données de la table Secteur.
     /// Fournit une méthode statique pour récupérer la liste des secteurs depuis la base de données.
     /// </summary>
-    internal class SecteurDAO
+    public class SecteurDAO
     {
         /// <summary>
         /// Adresse du serveur de base de données (provider).

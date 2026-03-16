@@ -10,7 +10,7 @@ namespace Mission_C_.Models
     /// Représente un secteur avec son identifiant et son nom.
     /// Fournit des accesseurs en lecture et une représentation textuelle.
     /// </summary>
-    internal class Secteur
+    public class Secteur
     {
         /// <summary>
         /// Identifiant unique du secteur.

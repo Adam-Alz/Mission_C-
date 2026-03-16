@@ -15,7 +15,7 @@ namespace Mission_C_.Models
     /// Contient les identifiants, la durée et des propriétés pour les noms de ports et du secteur.
     /// Fournit des accesseurs en lecture/écriture pour certains champs et une représentation textuelle.
     /// </summary>
-    internal class Liaison
+    public class Liaison
     {
         /// <summary>
         /// Adresse du serveur de base de données (utilisée par le DAO si nécessaire).

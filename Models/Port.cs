@@ -10,7 +10,7 @@ namespace Mission_C_.Models
     /// Représente un port avec son identifiant et son nom.
     /// Fournit des accesseurs en lecture et une représentation textuelle.
     /// </summary>
-    internal class Port
+    public class Port
     {
         /// <summary>
         /// Identifiant unique du port.
